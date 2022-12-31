@@ -26,8 +26,8 @@ verbind deze met de onethinx
 
 
 ## NOTE
-in de device configurator staat dat CLK_PERI 16 MHz is deze is echter 50 MHz.
-Als deze clock gebruikt wordt moet er de clock divider maal 3.125 moet worden gedaan om de juiste frequentie te bekomen.
+#### in de device configurator staat dat CLK_PERI 16 MHz is deze is echter 50 MHz.
+#### Als deze clock gebruikt wordt moet er de clock divider maal 3.125 moet worden gedaan om de juiste frequentie te bekomen.
 ![image](https://user-images.githubusercontent.com/69217508/210148976-824a3551-34e4-4a34-b2e7-45293fa17db6.png)
 
 #### bij UART gaat dit niet door een constraint. Dus de baud rate van UART moet 360 000 zijn voor seriele data uit te kunnen lezen

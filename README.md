@@ -9,12 +9,8 @@ In de gateway webinterface kan de ontvangen data gezien worden.
 ![PXL_20221230_223926812](https://user-images.githubusercontent.com/69217508/210148726-828cacad-d41c-4acf-9ffa-9deecfd0d892.jpg)
 
 
-
-
-
-
-
-
+sensor:
+![PXL_20221231_154327934](https://user-images.githubusercontent.com/69217508/210148819-5375de14-35e9-4b9a-88a5-c1856e9bc16a.jpg)
 
 
 
@@ -27,5 +23,14 @@ verwijder plastic van plastic connector j11 en verbind probes:
 
 verbind deze met de onethinx
 ![PXL_20221231_152604138](https://user-images.githubusercontent.com/69217508/210148666-b6369de5-fbd1-4f8f-b1c7-5ccb674a9b21.jpg)
+
+
+## NOTE
+in de device configurator staat dat CLK_PERI 16 MHz is deze is echter 50 MHz.
+Als je deze clock gebruikt moet er gezien worden dat de clock divider maal ~3 moet worden gedaan om de juiste frequentie te bekomen.
+![image](https://user-images.githubusercontent.com/69217508/210148976-824a3551-34e4-4a34-b2e7-45293fa17db6.png)
+
+bij UART gaat dit niet door een constraint. Dus de baud rate van UART moet 
+![image](https://user-images.githubusercontent.com/69217508/210149052-29192e18-6f5f-4717-a90d-b48bd1936197.png)
 
 

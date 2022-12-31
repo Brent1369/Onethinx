@@ -5,8 +5,8 @@
 In dit project wordt een onethinx module geprogrammeerd met een gemodificeerde psoc 6 wifi-bt
 De onethinx module leest analoge data uit van een sensor die de water diepte meet en stuurt deze waarde naar de lora gateway.
 In de gateway webinterface kan de ontvangen data gezien worden.
+![PXL_20221230_223926812~2](https://user-images.githubusercontent.com/69217508/210149284-5f64ef69-4686-48cf-b0a8-f0d8185458d8.jpg)
 
-![PXL_20221230_223926812](https://user-images.githubusercontent.com/69217508/210148726-828cacad-d41c-4acf-9ffa-9deecfd0d892.jpg)
 
 
 sensor:

@@ -1,5 +1,6 @@
 # Onethinx
 
+
 om psoc wifi-bt  als programmer te gebruiken:
 desoldeer de volgende weerstanden
 ![PXL_20221231_152647527](https://user-images.githubusercontent.com/69217508/210142503-422bd518-a473-4423-9646-8b9f67ccd8b5.jpg)
